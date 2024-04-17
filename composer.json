@@ -8,6 +8,6 @@
   ],
   "require":
   {
-    "bcosca/fatfree-core": "dev-master"
+    "../hello-fat-free/vendor/bcosca/fatfree-core": "dev-master"
   }
 }
