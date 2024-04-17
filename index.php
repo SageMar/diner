@@ -40,6 +40,20 @@ $f3->route('GET /menus/dinner', function (){
     echo $view->render('views/dinner-menu.html');
 });
 
+// define the route for the order menu
+$f3->route('GET /order1', function (){
+    $view = new Template();
+    // render the specific file we want
+    echo $view->render('views/order1.html');
+});
+
+// define the route for the order menu
+$f3->route('GET /order2', function (){
+    $view = new Template();
+    // render the specific file we want
+    echo $view->render('views/order.html');
+});
+
 // run fat free, otherwise the page won't load
 $f3->run();
 
