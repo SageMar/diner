@@ -8,6 +8,10 @@
   ],
   "require":
   {
-    "../hello-fat-free/vendor/bcosca/fatfree-core": "dev-master"
+    "bcosca/fatfree-core": "dev-master"
+  },
+  "autoload":
+  {
+    "classmap": ["classes/", "model/"]
   }
 }
