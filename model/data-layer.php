@@ -6,6 +6,8 @@
 class DataLayer
 {
 // Get the meals for the diner app
+
+    // if these functions access fields, cannot be static
     static function getMeals()
     {
         return array('breakfast', 'lunch', 'dinner');
